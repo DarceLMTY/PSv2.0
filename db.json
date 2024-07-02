@@ -1,0 +1,33 @@
+{
+    "associates" : [
+        
+        {
+            "ID_Associate": "032100030149",
+            "fLastName": "Herrera",
+            "mLastName": "Cardenas",
+            "Name": "Diego",
+            "Credit": true,
+            "Total_Credit": 100.50,
+            "associate": true
+        },
+        {
+            "ID_Associate": "22222222222",
+            "fLastName": "Lozano",
+            "mLastName": "Rubio",
+            "Name": "Andres",
+            "Credit": false,
+            "Total_Credit": 0,
+            "associate": false
+        },
+        {
+            "ID_Associate": "333333333333",
+            "fLastName": "Delgado",
+            "mLastName": "Vazquez",
+            "Name": "Monica",
+            "Credit": true,
+            "Total_Credit": 50,
+            "associate": true
+        }
+    ]
+
+}
