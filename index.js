@@ -55,9 +55,10 @@ app.get('/api/associates', API.validateKey, (req,res)=>{
 //Get Associate by ID
 app.get('/api/associates/:ID_Associate', API.validateKey, (req, res)=>{
     const data = readData();
-    const id = parseInt(req.params.ID_Associate);
+    //const id = parseInt(req.params.ID_Associate);
+    const id = req.params.ID_Associate;
     const associate = data.associates.find((associate) => associate.ID_Associate === id);
-
+    console.log(id);
     //const associate = associates.find(c => c.ID_Associate === parseInt(req.params.ID_Associate));
     if(!associate) return res.status(404).send('Associate NOT found');
     else res.status(200).send({
